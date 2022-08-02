@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ArrayDemo2missingageinstudentclass {
+public class ArrayDemo2 {
 	public static void main(String[] args) {
 //		int []array = new int[4]; // 힙에 방 4개 주소를 스택에있는 array에 넣음 
 //		Scanner sc = new Scanner(System.in);
@@ -17,7 +17,7 @@ public class ArrayDemo2missingageinstudentclass {
 //			System.out.printf("array[%d]=%d\t",i,array[i]);
 //		}
 //		
-		
+//		
 		//이젠 입력받아보자 
 		Student [] array = new Student[2]; // 어떤 학생이 2명이 있다. 방2개인 집의 주소를 array사 받은 것. / 주소초기화값은 null 이다 
 		
@@ -38,11 +38,12 @@ public class ArrayDemo2missingageinstudentclass {
 		for(int i =0; i<2; i++) {
 			System.out.print(i+"번째 학생의 이름 : "); array[i].name=sc.nextLine();//키보드로부터 1줄 입력받아서 이름에 넣고 
 			System.out.print(i+"번째 학생의 나이 : "); array[i].age=sc.nextInt(); // 주소를 array로 바꿔준것 뿐 array의 각 방이 주소 
-			sc.nextLine();
-		}
+			sc.nextLine(); // 나이 다음 이름 , 정수 다음 글자 니까 버퍼 하나 넣어줌 
+		}// 적는 칸 물어보기 
 	for(int j=0 ; j<2;j++) {
 		System.out.print("array["+j+"]의 이름 : "+array[j].name+"\t");
 		System.out.println("array["+j+"]의 나이 : "+array[j].age);
+		//다 받아 적고 표시 
 	
 	} // 반복문을 통해서 한번에 받아들이고 반복ㅁ문으로 출력가능 , 변수를 많이 만들 필요가 없다. 
 	}

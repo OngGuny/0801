@@ -1,5 +1,5 @@
 // sorting 해야함 4개는 알고 있어야함 .bubble  /  /  / quick
-public class ArrayDeno9 {
+public class ArrayDemo9 {
 	public static void main(String[] args) {
 //		double [] original = {78.2,56.9,43.5};
 //		double [] target = {172.8,185.4,162.9,152.1};
@@ -64,15 +64,6 @@ System.out.println("Before Sorting");
 	for (int su : original) {
 		System.out.printf("%d\t",su);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
